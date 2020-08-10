@@ -1,0 +1,24 @@
+{
+  "contacts": [
+    {
+      "name": "Batman",
+      "number": "000",
+      "id": 2
+    },
+    {
+      "name": "Chippolino",
+      "number": "777",
+      "id": 3
+    },
+    {
+      "name": "Mouse",
+      "number": "5555",
+      "id": 4
+    },
+    {
+      "name": "Crow",
+      "number": "0000",
+      "id": 5
+    }
+  ]
+}
