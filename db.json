@@ -1,11 +1,6 @@
 {
   "contacts": [
     {
-      "name": "Batman",
-      "number": "000",
-      "id": 2
-    },
-    {
       "name": "Chippolino",
       "number": "777",
       "id": 3
@@ -19,6 +14,16 @@
       "name": "Crow",
       "number": "0000",
       "id": 5
+    },
+    {
+      "name": "Crock",
+      "number": "4545",
+      "id": 6
+    },
+    {
+      "name": "Cat",
+      "number": "12345",
+      "id": 7
     }
   ]
 }

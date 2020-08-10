@@ -4,12 +4,11 @@ const getLoading = (state) => state.contacts.loading;
 
 const getItems = (state) => state.contacts.items;
 
-const getItemById = (state, itemId) => {
-  const items = getItems(state);
-  return items.find((item) => item.id === itemId);
-};
-
 const getFilter = (state) => state.contacts.filter;
+
+const getItemById = createSelector([getItems, (_, itemId) => itemId], (items, itemId) => {
+  return items.find((item) => item.id === itemId);
+});
 
 const getChoosenItems = createSelector(
   [getItems, getFilter],
